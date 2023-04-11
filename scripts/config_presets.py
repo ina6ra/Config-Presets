@@ -264,10 +264,10 @@ class Script(scripts.Script):
             component_map[component.elem_id] = component
             #print(f"[Config-Presets][DEBUG]: found component: {component.elem_id} {component}")
 
-        #if component.elem_id == "script_list": #bottom of the script dropdown
+        if component.elem_id == "script_list": #bottom of the script dropdown
         #if component.elem_id == "txt2img_style2_index": #doesn't work, need to be added after all the components we edit are loaded
         #if component.elem_id == "open_folder": #bottom of the image gallery
-        if component.elem_id == "txt2img_generation_info_button" or component.elem_id == "img2img_generation_info_button": #very bottom of the txt2img/img2img image gallery
+        #if component.elem_id == "txt2img_generation_info_button" or component.elem_id == "img2img_generation_info_button": #very bottom of the txt2img/img2img image gallery
 
             #print("Creating dropdown values...")
             #print("key/value pairs in component_map:")
